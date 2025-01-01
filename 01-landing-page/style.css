@@ -1,0 +1,167 @@
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+.one {
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+}
+
+.two {
+    display:flex;
+    justify-content:space-between;
+    padding: 30px;
+    gap:20px
+}
+
+.one,
+.two {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1F2937;
+    
+}
+
+.header-two {
+    padding: 20px;
+}
+
+.header-links{
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    color:#E5E7EB;
+    text-decoration: none;
+}
+
+.two .text .header-one {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.two .text .content-one{
+    font-size:18px;
+    color: #E5E7EB;
+}
+
+.two .text .button-one {
+    background-color: #3882F6;
+    padding: 5px;
+    color:white;
+    border-radius: 5px;
+    border: none;
+    width: 90px
+}
+
+.two .text{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.boxes {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.box-one,
+.box-two,
+.box-three,
+.box-four {
+    width:300px;
+    text-align: center;
+}
+
+.three{
+    padding:30px;
+}
+
+.header-two{
+    text-align: center;
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.author {
+    text-align:end;
+    font-size: 20px;
+    font-weight:900;    
+}
+
+.four {
+    background-color: #E5E7EB;
+    padding:30px;
+    gap: 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.five {
+    display:flex;
+    justify-content: space-between;
+    margin:30px 150px;
+    padding:50px 0px;
+    background-color: #3882F6;
+    align-items: center;
+}
+
+.five .message .action {
+    color: white;
+    font-size: 24px;
+}
+
+.five .message .sign {
+    color: #E5E7EB;
+}
+
+.five .sign-up {
+    background-color: #3882F6;
+    color: white;
+    border: 1.5px white solid;
+    border-radius: 5px;
+    padding:0px 20px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.six {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px
+}
+
+.one,
+.two {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.three,
+.four,
+.five,
+.six {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.A,
+.B,
+.C,
+.D {
+    border:#3882F6 solid 5px;
+    border-radius:8px;
+}
