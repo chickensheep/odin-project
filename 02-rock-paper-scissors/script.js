@@ -29,14 +29,14 @@ function playRound(){
     getComputerChoice()
     getHumanChoice()
     if (person===Robot){
-        alert(`Round ${apple} \nComputer and you both choose "${person}" so we draw.`)
+        alert(`Round ${apple} \nComputer and you both choose "${person}" so we draw. :o`)
         alert(`Round ${apple} \n\nYour score: ${humanScore}\nComputer score: ${computerScore}`)
     } else if ((person=="scissors" && Robot=="paper")||(person=="paper" && Robot=="rock")||(person=="rock" && Robot=="scissors")) {
-        alert(`Round ${apple} \nYou choose "${person}. Computer choose "${Robot}". You win!!`)
+        alert(`Round ${apple} \nYou choose "${person}". Computer choose "${Robot}". You win!! :D`)
         humanScore=humanScore+1
         alert(`Round ${apple} \n\nYour score: ${humanScore}\nComputer score: ${computerScore}`)
     } else if ((person=="paper" && Robot=="scissors")||(person=="rock" && Robot=="paper")||(person=="scissors" && Robot=="rock")) {
-        alert(`Round ${apple} \nYou choose "${person}. Computer choose "${Robot}". You lose.`)
+        alert(`Round ${apple} \nYou choose "${person}". Computer choose "${Robot}". You lose. D:`)
         computerScore=computerScore+1
         alert(`Round ${apple} \n\nYour score: ${humanScore}\nComputer score: ${computerScore}`)
     } else {
@@ -53,11 +53,11 @@ for (let i=1; i<=5;i++) {
 }
 
 if (humanScore<computerScore) {
-    alert (`Final round: \n\nYour score: ${humanScore}\nComputer score: ${computerScore} \n\n You lose.`)
+    alert (`Final round: \n\nYour score: ${humanScore}\nComputer score: ${computerScore} \n\n You lose. D:`)
 } else if (humanScore>computerScore) {
-    alert (`Final round: \n\nYour score: ${humanScore}\nComputer score: ${computerScore} \n\n You win!!`)
+    alert (`Final round: \n\nYour score: ${humanScore}\nComputer score: ${computerScore} \n\n You win!! :D`)
 } else {
-    alert (`Final round: \n\nYour score: ${humanScore}\nComputer score: ${computerScore} \n\n It's a draw.`)
+    alert (`Final round: \n\nYour score: ${humanScore}\nComputer score: ${computerScore} \n\n It's a draw. :o`)
 }
 
 
