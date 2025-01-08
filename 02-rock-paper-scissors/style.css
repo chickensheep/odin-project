@@ -1,0 +1,19 @@
+button {
+    padding:5px 10px;
+    margin-left:5px;
+    font-size:15px;
+    border-radius: 20px;
+    border: none
+}
+
+.rock{
+    background-color: rgb(255, 102, 102);
+}
+
+.paper{
+    background-color: lightgreen;
+}
+
+.scissors{
+    background-color: yellow;
+}
