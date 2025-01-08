@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sketchpad</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="script.js"></script>
-
+    <script src="script.js" defer></script>
+    <div class="container">
+        <div class="title">Sketchpad <span style="font-size: 20px;">by Chickensheep</span></div>
+        <div class="content">
+            <div class="board"></div>
+            <div class="grid">
+                <label for="gridNumber" style="font-size:20px"> Enter the number of grids on each side (2-100): </label>
+                <input type="text" id="gridNumber" style="font-size:12px" value="16">
+            </div>
+            <div class="option"></div>
+        </div>
+    </div>
+    <a href="../index.html">Back to Main Project Page</a>
 </body>
 </html>

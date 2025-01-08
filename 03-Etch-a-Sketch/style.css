@@ -1,0 +1,67 @@
+.board{
+    display:flex;
+    flex-wrap:wrap;
+    border:0.5px solid #ddd;
+    width:640px;
+    height:640px;
+}
+
+
+.square {
+    border: 0.5px solid #ddd; 
+    box-sizing:border-box; 
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom:20px;
+}
+
+
+
+.board {
+    margin-bottom:20px;
+}
+
+button {
+    padding:5px 15px;
+    margin-left:10px;
+    font-size:15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ddd;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.orange {
+    background-color: orange;
+}
