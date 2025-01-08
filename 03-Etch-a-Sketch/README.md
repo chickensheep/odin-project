@@ -1,0 +1,1 @@
+tis is a etch a sketch project. not too sure how it work but i tink u can draw sth on it. enjoy :D
