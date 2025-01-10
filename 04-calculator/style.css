@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(187, 246, 255);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 70px;
+    margin-bottom:30px;
+}
+
+.calculator {
+    border:solid 5px black;
+    width: 500px;
+    height:640px;
+    margin-bottom: 20px;
+}
+
+.display {
+    width: 500px;
+    height:140px;
+    font-size: 50px;
+    border: 5px black solid;
+    box-sizing: border-box;
+}
+
+.equation{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:10px;
+    padding-top: 5px;
+}
+.answer{
+    text-align: end;
+    padding-right: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sign,
+.percentage,
+.delete,
+.seven,
+.eight,
+.nine,
+.divide,
+.four,
+.five,
+.six,
+.multiply,
+.one,
+.two,
+.three,
+.minus,
+.zero,
+.point,
+.plus {
+    width:125px;
+    height:100px;
+}
+
+.reset,
+.equal {
+    width:250px;
+    height:100px;
+}
+
+.sign,
+.percentage,
+.delete,
+.seven,
+.eight,
+.nine,
+.divide,
+.four,
+.five,
+.six,
+.multiply,
+.one,
+.two,
+.three,
+.minus,
+.zero,
+.point,
+.plus, 
+.reset,
+.equal {
+    font-size: 25px;
+    border: 5px solid black;
+    /* border-radius: 10px; */
+}
+
+.zero,
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.point {
+    background-color: lightskyblue;
+}
+
+.divide,
+.multiply,
+.minus,
+.plus,
+.equal {
+    background-color: lightgreen;
+}
+
+.reset,
+.delete {
+    background-color: rgb(255, 138, 138);
+}
