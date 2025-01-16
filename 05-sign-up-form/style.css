@@ -1,0 +1,119 @@
+body{
+    background-image: url("flowers-6803234_1280.webp");
+}
+
+.abc{
+    display:flex;
+    gap:10px;
+    margin-bottom: 50px;
+}
+
+.logo{
+    box-sizing: border-box;
+    display:flex;
+    background-color: hsla(0, 0%, 100%, 0.911);
+    align-items: center;
+    gap: 20px;
+    max-height: 200px;
+    padding:50px;
+    margin-top: 200px;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100vh;
+}
+
+.credit {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-weight: 1000;
+}
+
+.container{
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.description {
+    font-size: 30px;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.content{
+    background-color: white;
+    padding:0px 50px;
+    padding-bottom: 40px;
+    box-shadow: 0px 1px 10px black;
+}
+
+.input{
+    display: flex;
+    gap:50px;
+}
+
+.column-one,
+.column-two {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+#first-name:invalid,
+#last-name:invalid,
+#email:invalid,
+#password:invalid,
+#phone:invalid,
+#confirm:invalid{
+    border: red 1px solid
+}
+
+#first-name:valid,
+#last-name:valid,
+#email:valid,
+#password:valid,
+#phone:valid,
+#confirm:valid{
+    border:rgb(0, 174, 0) 1px solid
+}
+
+#first-name:focus,
+#last-name:focus,
+#email:focus,
+#password:focus,
+#phone:focus,
+#confirm:focus{
+    border:blue 5px solid
+}
+
+input{
+    border:1px lightgrey solid
+}
+
+button {
+    padding:10px 20px;
+    border-radius: 20px;
+    background-color: rgb(0, 174, 0);
+    border:none;
+    font-size: 20px;
+    max-width: fit-content;
+}
+
+.button{
+    padding:50px;
+    padding-top: 30px;
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+
+}

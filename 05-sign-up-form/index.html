@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="abc">
+        <div class="background">
+            <div class="logo">
+                <img src="flaming-chicken-chef-logo-mascot-600nw-2455923691.jpg.webp" alt="Chicken logo" height="150px">
+                <h1 style="font-size: 100px;">Chicken</h1>
+            </div>
+            <div class="credit">Photo by <a href="https://pixabay.com/users/jozefm84-10215106/" target="_blank">Jozefm84</a> on <a href="https://pixabay.com/vectors/flowers-floral-background-6803234/" target="_blank">Pixabay</a></div>
+        </div>
+        <div class="container">
+            <div class="description">Hi this is NOT a real online service. Hopefully the form works!!! pls help me try <br>sign up <em>now </em>to be a sigma!! <br><br>ya go sign up <b>now...</b></div>
+            <div class="content">
+                <h1>Press the box and type</h1>
+                <form action="#" id="account">
+                    <div class="input">
+                        <div class="column-one">
+                            <div class="one">
+                                <label for="first-name">FIRST NAME</label><br>
+                                <input type="text" name="first-name" id="first-name" required placeholder="Lebron">
+                            </div>
+                            <div class="three">
+                                <label for="email">EMAIL</label><br>
+                                <input type="email" name="email" id="email" required placeholder="lbj@gmail.com">
+                            </div>
+                            <div class="five">
+                                <label for="password">PASSWORD</label><br>
+                                <input type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                            </div>
+                        </div>
+                        <div class="column-two">
+                            <div class="two">
+                                <label for="last-name">LAST NAME</label><br>
+                                <input type="text" name="last-name" id="last-name" required placeholder="James">
+                            </div>
+                            <div class="four">
+                                <label for="phone">PHONE NUMBER</label><br>
+                                <input type="tel" name="phone" id="phone" required placeholder="012-3456789">
+                            </div>
+                            <div class="six">
+                                <label for="confirm">CONFIRM PASSWORD</label><br>
+                                <input type="password" name="confirm" id="confirm" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="button">
+                <button type="submit" form="account" class="create">Create Account</button>
+                <p>Already have an account? <a href="" style="color:rgb(0,174,0)">Log in</a></p>
+            </div>
+        </div>
+    </div>
+    <a href="../index.html">Back to main project page</a>
+
+</body>
+</html>
