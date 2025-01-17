@@ -1,0 +1,209 @@
+/*general*/
+
+:root{
+    font-size: 30px;
+    font-family:monaco;
+}
+
+
+
+
+
+/* style */
+
+.sidebar,
+.search,
+.welcome,
+.project,
+.announcement,
+.trending {
+    /* border: solid black 1px; */
+}
+
+.icon{
+    width: 1.5rem;
+    height:auto;
+}
+
+.pfp{
+    width:2rem;
+}
+
+.pfp-big{
+    width:2.5rem;
+}
+
+hr{
+    border:1px solid lightblue;
+}
+
+/*layout*/
+
+.container{
+    display:grid;
+    grid-template: 1fr 1.5fr 5fr 5fr / 1fr 3fr 1fr;
+}
+
+.sidebar{
+    grid-area:1/1/5/2;
+    background-color: rgb(0, 166, 255);
+    color:white;
+    box-shadow: -1px 0px 5px black inset;
+}
+
+.logo {
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.alien{
+    width:2rem;
+}
+
+.menu-one{
+    display:grid;
+    grid-template:repeat(3,1.8rem)/1fr 5fr;
+    align-items: center;
+    column-gap:10px;
+}
+
+.menu-two{
+    display:grid;
+    grid-template:repeat(2,1.8rem)/1fr 5fr;
+    align-items: center;
+    column-gap:10px;
+}
+
+.logo,
+.menu-one,
+.menu-two{
+    padding: 30px 10px;
+}
+
+
+.search{
+    grid-area: 1/2/2/4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    gap: 20px;
+}
+
+#search{
+    height: 1.5rem; 
+    background-color: rgb(229, 229, 229); 
+    border-radius: 20px;
+    border:none;
+    font-size: 1rem;
+    padding-left: 15px;
+    box-shadow: 1px 0px 5px black;
+}
+
+#search:focus{
+    border: blue solid 5px
+}
+
+.profile{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.welcome{
+    grid-area: 2/2/3/4;
+    display:flex;
+    justify-content: space-between;
+    box-shadow: 0px -1px  black inset;
+}
+
+
+
+.message{
+    display:flex;
+    align-items: center;
+    gap:20px;
+    padding-left: 40px;
+}
+
+.hi p{
+    height:0.5rem;
+    padding:0px
+}
+
+.navigation{
+    display:flex;
+    gap:30px;    
+    align-items: center;
+    padding-right: 100px;
+}
+
+.navigation button{
+    padding:10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(0, 166, 255);
+    border:none;
+    font-size:0.8rem;
+}
+
+.Project {
+    grid-area: 3/2/5/3;
+    background-color:rgb(229, 229, 229);
+    padding: 20px;
+}
+
+.title{
+    padding-bottom:20px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+    gap:1rem;
+}
+
+.project{
+    padding:10px 20px;
+    background-color: white;
+    box-shadow: 10px 0px  yellow inset;
+    border-radius: 10px;
+}
+
+.project h1{
+    font-size: 1rem;
+}
+
+
+.project p{
+    font-size: 0.7rem;
+}
+
+.extra{
+    text-align: end;
+}
+
+.announcement{
+    grid-area: 3/3/4/4;
+    background-color:rgb(229, 229, 229);
+    padding: 20px 10px
+}
+
+.content {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding:10px 20px;
+}
+
+.trending{ 
+    grid-area: 4/3/5/4;
+    background-color:rgb(229, 229, 229);
+    padding: 20px 10px
+}
