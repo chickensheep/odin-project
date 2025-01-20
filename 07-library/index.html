@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js" defer></script>
+    
+    <h1>Library</h1>
+
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Page</th>
+                    <th>Read</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+        <button class="add-book">Add book</button>
+    </div>
+    <a href="../index.html">Back to Main Project Page</a>
+    <dialog class="question">
+        <form action="#" method="dialog">
+            <label for="title">Title: </label>
+            <input type="text" id="title" required oninvalid="this.setCustomValidity('Pls enter your parking ticket...')" oninput="this.setCustomValidity('')">
+            <br>
+
+            <label for="author">Author: </label>
+            <input type="text" id="author" required oninvalid="this.setCustomValidity('Pls enter your parking ticket...')" oninput="this.setCustomValidity('')">
+            <br>
+
+            <label for="page">Page: </label>
+            <input type="number" id="page" required min="1" max="2000" oninvalid="this.setCustomValidity('wot is this number')" oninput="this.setCustomValidity('')">
+            <br>
+
+            <label for="read">Read: </label>
+            <input type="checkbox" id="read">
+            <br>
+            
+            <div class="abc"><input type="submit" value="Confirm" class="confirm"></div>
+
+        </form>
+    </dialog>
+
+</body>
+</html>

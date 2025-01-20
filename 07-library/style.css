@@ -1,0 +1,115 @@
+:root{
+    font-family:fantasy;
+    background-color: black;
+    color:white
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.table,th,td {
+    border:3px black solid;
+    border-collapse: collapse;
+    color:black;
+}
+
+.table {
+    width:90%;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-bottom: 50px
+}
+
+th {
+    padding:5px 15px;
+    font-size:30px;
+}
+
+td {
+    padding:5px 15px;
+    font-size:20px;
+}
+
+
+
+thead {
+    background-color: white;
+}
+
+.add-book {
+    font-size: 15px;
+    font-family: fantasy;
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+    padding:10px 20px;
+    align-self: end;
+    margin-right: 5%;
+}
+
+.deleteButton{
+    font-size:30px;
+    border-radius:30px;
+    background-color: black;
+    color: white;
+    border: white 2px solid;
+}
+
+.table td:nth-last-child(-n+2){
+    text-align: center;
+}
+
+/* .toggle {
+    font-size:30px;
+    border-radius:30px;
+    background-color: black;
+    color: white;
+    border: white 2px solid;
+    font-family: fantasy;
+    padding: 10px 20px;
+} */
+
+.readCheck{
+    transform:scale(3);
+}
+
+.row-read {
+    background-color: lightgreen;
+}
+  
+.row-unread {
+    background-color: lightcoral;
+}
+
+#author,
+#title,
+#page{
+    font-size:15px
+}
+
+#read{
+    transform: scale(2);
+    margin-left:10px;
+}
+
+.confirm{
+    font-size:15px;
+    border-radius:30px;
+    background-color: black;
+    color: white;
+    border: white 2px solid;
+    font-family: fantasy;
+    padding: 0px 20px;
+}
+
+.abc{
+    text-align: center;
+}
