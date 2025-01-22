@@ -1,0 +1,45 @@
+:root{
+    font-family: monospace;
+}
+
+h1{
+    font-size: 50px;
+}
+
+button,
+input{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.message{
+    font-size: 30px;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.gameboard {
+    width:40%;
+
+}
+
+.square{
+    border: 1px black solid;
+    width:30%;
+    height:160px;
+    font-size:150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameboard{
+    display:flex;
+    flex-wrap: wrap;
+}
+
