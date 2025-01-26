@@ -2,6 +2,7 @@ const createContactPage =()=>{
     const content=document.querySelector("#content")
 
     const form=document.createElement("form")
+    form.classList.add("form")
 
     const nameDiv=document.createElement("div")
     const name=document.createElement("label")
@@ -12,7 +13,12 @@ const createContactPage =()=>{
     nameInput.type="text"
     nameInput.setAttribute("required","")
     name.textContent="Name: "
-
+    nameInput.oninvalid =()=>{
+        nameInput.setCustomValidity("What is ur name")
+    }
+    nameInput.oninput =()=>{
+        nameInput.setCustomValidity("")
+    }
     
     const phoneDiv=document.createElement("div")
     const phone=document.createElement("label")
@@ -23,7 +29,12 @@ const createContactPage =()=>{
     phoneInput.type="tel"
     phoneInput.setAttribute("required","")
     phone.textContent="Phone: "
-
+    phoneInput.oninvalid =()=>{
+        phoneInput.setCustomValidity("Gimme ur fone number")
+    }
+    phoneInput.oninput =()=>{
+        phoneInput.setCustomValidity("")
+    }
     
     const emailDiv=document.createElement("div")
     const email=document.createElement("label")
@@ -34,12 +45,16 @@ const createContactPage =()=>{
     emailInput.type="email"
     emailInput.setAttribute("required","")
     email.textContent="Email: "
+    emailInput.oninvalid =()=>{
+        emailInput.setCustomValidity("Pls enter ur email")
+    }
+    emailInput.oninput =()=>{
+        emailInput.setCustomValidity("")
+    }
 
     const submit=document.createElement("input")
     submit.type="submit"
-    // submit.addEventListener("click", function(event){
-    //     event.preventDefault()
-    // });
+    submit.classList.add("submit")
 
     nameDiv.appendChild(name)
     nameDiv.appendChild(nameInput)

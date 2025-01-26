@@ -7,7 +7,7 @@ const createTabs = ()=>{
 
     const homeTab=document.createElement("div")
     homeTab.textContent="Home"
-    homeTab.classList.add("tabs")
+    homeTab.classList.add("tabss")
     homeTab.addEventListener("click",()=>{
         clearPage()
         createRestaurantHomePage()
@@ -15,7 +15,7 @@ const createTabs = ()=>{
 
     const menuTab=document.createElement("div")
     menuTab.textContent="Menu"
-    menuTab.classList.add("tabs")
+    menuTab.classList.add("tabss")
     menuTab.addEventListener("click",()=>{
         clearPage()
         createMenuPage()
@@ -23,7 +23,7 @@ const createTabs = ()=>{
 
     const contactTab=document.createElement("div")
     contactTab.textContent="Contact"
-    contactTab.classList.add("tabs")
+    contactTab.classList.add("tabss")
     contactTab.addEventListener("click",()=>{
         clearPage()
         createContactPage()
