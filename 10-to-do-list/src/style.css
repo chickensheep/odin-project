@@ -1,0 +1,46 @@
+table,
+td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    padding:5px 10px;
+}
+
+table{
+    margin-bottom: 40px;
+}
+
+.currentDate{
+    font-size: 50px;
+}
+
+caption{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+button{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.notUrgent {
+    background-color: lightgreen;
+}
+
+.quiteUrgent{
+    background-color: orange;
+}
+
+.veryUrgent{
+    background-color: lightcoral;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
